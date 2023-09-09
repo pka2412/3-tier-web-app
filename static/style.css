@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+#expenseName, #incomeName {
+  width: 100%;
+  padding: 5px;
+}
+
+#expenseAmount, #incomeAmount {
+  width: 60px;
+  padding: 5px;
+}
+
+#addExpenseBtn, #addIncomeBtn {
+  margin-left: 10px;
+}
+
+.budget-section {
+  margin-top: 20px;
+}
